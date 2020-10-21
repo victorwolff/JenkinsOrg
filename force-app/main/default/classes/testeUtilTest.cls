@@ -1,6 +1,6 @@
-public class testeUtilTest {
-    @isTest
-    static void clearMessagesTest() {
+@isTest
+private class testeUtilTest {
+    @isTest static void myTest() {
         testeUtil.testeMetd('1');
     }
 }
