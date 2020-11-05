@@ -130,7 +130,7 @@ node {
 
                 echo ${PACKAGE_VERSION}
             }
-
+            /*
 
             // -------------------------------------------------------------------------
             // Create new scratch org to install package to.
@@ -189,7 +189,7 @@ node {
                 if (rc != 0) {
                     error 'Salesforce package install scratch org deletion failed.'
                 }
-            }
+            }*/
         }
     }
 }
