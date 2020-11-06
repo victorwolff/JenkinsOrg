@@ -114,7 +114,7 @@ node {
                 if (isUnix()) {
                     output = sh returnStdout: true, script: "\"${toolbelt}\" force:package:version:create -p ${PACKAGE_NAME} -d force-app -k test1234 --wait 10 -v victorwolffjobs@curious-hawk-dyiifv.com"
                 } else {
-                    output = bat(returnStdout: true, script: "\"${toolbelt}\" "\"${toolbelt}\" force:package:version:create -p ${PACKAGE_NAME} -d force-app -k test1234 --wait 10 -v victorwolffjobs@curious-hawk-dyiifv.com").trim()
+                    output = bat(returnStdout: true, script: "\"${toolbelt}\" force:package:version:create -p ${PACKAGE_NAME} -d force-app -k test1234 --wait 10 -v victorwolffjobs@curious-hawk-dyiifv.com").trim()
                     output = output.readLines().drop(1).join(" ")
                 }
 
