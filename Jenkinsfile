@@ -49,7 +49,7 @@ node {
             // -------------------------------------------------------------------------
             // Create new scratch org to test your code.
             // -------------------------------------------------------------------------
-
+/*
             stage('Create Test Scratch Org') {
                 rc = command "\"${toolbelt}\" force:org:create --targetdevhubusername HubOrg --setdefaultusername --definitionfile config/project-scratch-def.json --setalias ciorg --wait 10 --durationdays 1"
                 if (rc != 0) { 
@@ -109,7 +109,7 @@ node {
             // -------------------------------------------------------------------------
             // Create package version.
             // -------------------------------------------------------------------------
-            
+            */
             stage('Create Package Version') {
                 if (isUnix()) {
                     output = sh returnStdout: true, script: "\"${toolbelt}\" force:package:version:create -p ${PACKAGE_NAME} -d force-app -k test1234 --wait 10 -v victorwolffjobs@curious-hawk-dyiifv.com"
