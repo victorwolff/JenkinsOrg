@@ -1,11 +1,23 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "JenkinsOrg",
+            "versionName": "Winter '20",
+            "versionNumber": "1.0.0.NEXT",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "47.0",
+    "packageAliases": {
+        "dreamhouse": "0Ho4W000000wkIPSAY",
+        "dreamhouse@2.0.0-4": "04t1I0000036seVQAQ",
+        "dreamhouse@3.0.0-5": "04t1I0000036u98QAA",
+        "dreamhouse@3.0.0-1": "04t4W0000038R4xQAE",
+        "JenkinsOrg": "0Ho4W000000wkIUSAY",
+        "JenkinsOrg@1.0.0-1": "04t4W0000038R52QAE",
+        "JenkinsOrg@1.0.0-2": "04t4W0000038R57QAE"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "47.0"
 }
